@@ -1,0 +1,5 @@
+info:
+  app:
+    name: Voicelabs Skill
+    description:   This application is a handler application which listens to all events from alexa device.
+    version: 0.0.1
