@@ -66,7 +66,7 @@ public class ParseLog4jFileServiceImpl implements ParseLog4jFileService {
 
     public List<File> listFilesForFolder() throws IOException {
 
-        File dir = new File("/log/");
+        File dir = new File("/log");
         return Arrays.asList(dir.listFiles((d, name) -> name.endsWith(".log")));
     }
 }
